@@ -8,6 +8,7 @@ Command line to observe how [Conway's game of life](https://www.wikiwand.com/en/
 `> pip install pygame`
 
 Patterns database can be downloaded [here](www.conwaylife.com/patterns/all.zip), put all files in the [patterns](patterns/) directory.
+Or you can run the `install_patterns.sh` script.
 
 ## Usage
 

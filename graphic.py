@@ -1,6 +1,5 @@
 import os
 from time import sleep, time
-from threading import Thread
 
 import pygame as pg
 from pygame.locals import *
