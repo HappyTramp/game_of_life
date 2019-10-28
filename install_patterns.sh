@@ -1,8 +1,7 @@
 #!/bin/sh
 
-mkdir patterns
-curl www.conwaylife.com/patterns/all.zip > patterns/tmp.zip
+mkdir -p patterns
 cd patterns
-unzip tmp.zip
-rm tmp.zip
-
+curl https://www.conwaylife.com/patterns/all.zip > tmp.zip \
+	&& unzip tmp.zip && rm tmp.zip
+cd ..
